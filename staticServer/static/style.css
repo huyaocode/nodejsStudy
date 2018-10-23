@@ -1,0 +1,34 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: slategrey;
+}
+.wrapper {
+  position: relative;
+  margin: 30px auto;
+  width: 1000px;
+  height: 470px;
+  border: 2px solid #fff;
+  background-image: url('./bg.jpg');
+  background-size: 1000px 470px;
+  background-repeat: no-repeat;
+}
+.small {
+  position: absolute;
+  right : 0;
+  bottom: 0;
+  width: 200px;
+  height: 96px;
+  border: 1px solid #000;
+  background-image: url('./bg.jpg');
+  background-size: 200px 96px;
+}
+#sight {
+  position: absolute;
+  right : 0;
+  bottom: 0;
+  width: 200px;
+  height: 96px;
+  border: 1px solid #fff;
+}

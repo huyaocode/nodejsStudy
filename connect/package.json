@@ -1,0 +1,6 @@
+{
+  "name": "fast-slow-req",
+  "dependencies": {
+    "connect": "^3.6.6"
+  }
+}
